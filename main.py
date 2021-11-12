@@ -104,7 +104,7 @@ class Comment(db.Model):
     text = db.Column(db.Text, nullable=False)
 
 ## Only first time to create DBs
-# db.create_all()
+db.create_all()
 
 
 # Create admin-only decorator
